@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>firewall_run</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <canvas id="c"></canvas>
+
+  <div class="hud">
+    <span id="score">0</span>
+  </div>
+
+  <div class="center-msg" id="startMsg">
+    <div class="title">FIREWALL_RUN</div>
+    <div class="sub">tap / click / space to fly</div>
+    <div class="sub2">get through the gaps</div>
+  </div>
+
+  <div class="center-msg" id="overMsg" hidden>
+    <div class="title over">BREACHED</div>
+    <div class="sub">score <b id="finalScore"></b> — best <b id="bestScore"></b></div>
+    <div class="sub2">tap to retry</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
